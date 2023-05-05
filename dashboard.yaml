@@ -1,0 +1,8 @@
+http:
+  routers:
+    dashboard:
+      entryPoints:
+        - "websecure"
+      rule: Host(`${DASHBOARD_ADDRESS}`)
+      service: api@internal
+      tls: {}

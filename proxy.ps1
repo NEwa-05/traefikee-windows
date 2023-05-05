@@ -1,0 +1,1 @@
+Start-Process -FilePath "C:\traefikee\traefikee.exe" -ArgumentList "proxy --discovery.static.peers=${CONTROLLER_IP}:4242 --jointoken.file.path=C:\traefikee\secrets --statedir=C:\traefikee\state --log.filepath=C:\traefikee\log\traefikee.log" -WindowStyle Hidden 
